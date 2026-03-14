@@ -28,20 +28,27 @@
             android:layout_margin="20dp"
             />
         <EditText
+            android:id="@+id/examenInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Ingresa el númrero de exámenes"
             android:layout_margin="10dp"
             />
         <Button
+            android:id="@+id/sendButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enviar"
             android:textSize="20sp"
             android:padding="15dp"
-
             />
+        <TextView
+            android:id="@+id/texttospeech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
         <ProgressBar
+            android:id="@+id/progressbar"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="10dp"
